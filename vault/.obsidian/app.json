@@ -1,0 +1,14 @@
+{
+  "attachmentFolderPath": "添付ファイル",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "マニュアル",
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "preview",
+  "livePreview": true,
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "strictLineBreaks": false,
+  "useMarkdownLinks": false,
+  "promptDelete": true,
+  "trashOption": "local"
+}

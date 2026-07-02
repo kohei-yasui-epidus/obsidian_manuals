@@ -1,0 +1,16 @@
+{
+  "commitMessage": "vault更新: {{date}} ({{hostname}})",
+  "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
+  "autoSaveInterval": 0,
+  "autoPushInterval": 0,
+  "autoPullInterval": 10,
+  "autoPullOnBoot": true,
+  "disablePush": false,
+  "pullBeforePush": true,
+  "changedFilesInStatusBar": true,
+  "showStatusBar": true,
+  "syncMethod": "merge",
+  "updateSubmodules": false,
+  "disablePopups": false,
+  "listChangedFilesInMessageBody": false
+}

@@ -1,0 +1,11 @@
+{
+  "enableDataviewJs": false,
+  "enableInlineDataview": true,
+  "prettyRenderInlineFields": true,
+  "refreshEnabled": true,
+  "refreshInterval": 2500,
+  "defaultDateFormat": "yyyy-MM-dd",
+  "defaultDateTimeFormat": "yyyy-MM-dd HH:mm",
+  "tableIdColumnName": "ファイル",
+  "tableGroupColumnName": "グループ"
+}

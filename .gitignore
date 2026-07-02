@@ -1,0 +1,23 @@
+# OneNote 元ファイル(機密・容量の観点でGit管理外。必要ならコメントアウト)
+input/*
+!input/.gitkeep
+
+# 変換ツールのバイナリ(tools/setup.sh で各自ダウンロード)
+tools/bin/
+
+# Obsidian のゴミ箱
+vault/.trash/
+
+# Obsidian の個人ローカル状態(共有しない)
+vault/.obsidian/workspace.json
+vault/.obsidian/workspace-mobile.json
+vault/.obsidian/workspaces.json
+vault/.obsidian/graph.json
+vault/.obsidian/canvas.json
+vault/.obsidian/appearance.json.bak
+
+# macOS
+.DS_Store
+
+# 変換の一時ファイル
+.tmp/

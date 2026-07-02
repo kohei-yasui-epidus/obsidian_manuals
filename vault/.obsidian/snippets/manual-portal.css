@@ -1,0 +1,39 @@
+/* ============================================
+   マニュアルポータル用スタイル
+   (設定 → 外観 → CSSスニペット で有効化されます)
+   ============================================ */
+
+/* 見出しを目立たせて、マニュアルの章立てを追いやすくする */
+.markdown-preview-view h1,
+.markdown-rendered h1 {
+  border-bottom: 2px solid var(--interactive-accent);
+  padding-bottom: 0.3em;
+}
+
+.markdown-preview-view h2,
+.markdown-rendered h2 {
+  border-left: 4px solid var(--interactive-accent);
+  padding-left: 0.5em;
+}
+
+/* スクリーンショット画像を枠付きで見やすく */
+.markdown-preview-view img,
+.markdown-rendered img {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+}
+
+/* 表のヘッダーを強調 */
+.markdown-preview-view th,
+.markdown-rendered th {
+  background-color: var(--background-secondary);
+  font-weight: 600;
+}
+
+/* Dataview テーブルの行間を広げて読みやすく */
+.table-view-table td {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
